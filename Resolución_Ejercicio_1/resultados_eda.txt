@@ -1,0 +1,24 @@
+Dimensiones: (495, 10)
+
+Ventas por canal:
+canal
+Distribuidor    132738.06
+Online          257154.37
+Tienda          212689.70
+Name: importe, dtype: float64
+
+Ticket medio por región:
+region
+Andalucía             1201.682816
+Castilla-La Mancha    1249.245294
+Cataluña              1106.740521
+Madrid                1255.825648
+Valencia              1269.385340
+Name: importe, dtype: float64
+
+Categoría más vendida: Alimentación
+
+===== CONCLUSIONES =====
+1. El canal con más ventas es: Online
+2. La región con mayor ticket medio es: Valencia
+3. La categoría más vendida es: Alimentación

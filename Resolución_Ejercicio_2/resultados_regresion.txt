@@ -1,0 +1,34 @@
+# =====================================
+# RESULTADOS - REGRESIÓN
+# =====================================
+
+## Dataset
+- **Archivo:** data/ventas_mayo_2026.csv
+- **Target:** importe
+- **Features:** unidades, precio_unitario, descuento, antiguedad_cliente_meses, categoria_enc, region_enc, canal_enc
+- **Tamaño dataset:** 490 registros
+- **Train/Test:** 343 / 147 (70/30)
+
+## Resultados - Comparación de Modelos
+
+| Modelo | RMSE |
+|--------|------|
+| Regresión Lineal | 254.47 |
+| Random Forest (depth=5) | 175.66 |
+| **Random Forest (depth=10)** | **163.92** ✓ |
+| Random Forest (depth=20) | 164.91 |
+
+## Mejor Modelo
+
+**Random Forest con depth=10**
+- RMSE: 163.92
+
+## Conclusión de Negocio
+
+El modelo Random Forest con profundidad 10 permite predecir el importe de ventas 
+con mayor precisión (menor error), facilitando la planificación y estrategia comercial.
+
+Este modelo es útil para:
+- Predecir ventas futuras basadas en características del cliente y transacción
+- Identificar qué factores tienen mayor impacto en el importe
+- Optimizar recursos y planificación de inventario
